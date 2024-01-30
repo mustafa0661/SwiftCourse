@@ -20,7 +20,9 @@ class ViewController: UIViewController {
 
     
     @IBAction func changedClicked(_ sender: Any) {
-        print("Button checked")
+        
+        imageView.image = UIImage(named: "landspace7")
+        
     }
     
 }
